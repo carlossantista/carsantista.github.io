@@ -1,0 +1,101 @@
+html
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Bem-vindo ao Meu Portfólio</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Início</a></li>
+                <li><a href="#sobre">Sobre Mim</a></li>
+                <li><a href="#portfolio">Portfólio</a></li>
+                <li><a href="#testemunhos">Testemunhos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <div class="banner">
+        <h2>Descubra Meu Trabalho!</h2>
+        <p>Explore meus projetos e entre em contato para mais informações.</p>
+    </div>
+    
+    <main>
+        <section id="home">
+            <h3>Bem-vindo!</h3>
+            <p>Esta é uma página de exemplo criada com HTML, CSS e JavaScript, mostrando um portfólio de projetos.</p>
+            <button id="meuBotao">Clique aqui!</button>
+            <p id="mensagem"></p>
+        </section>
+
+        <section id="sobre">
+            <h3>Sobre Mim</h3>
+            <p>Sou um desenvolvedor web apaixonado por criar experiências digitais incríveis. Tenho experiência em várias tecnologias e estou sempre aprendendo.</p>
+        </section>
+
+        <section id="portfolio">
+            <h3>Meu Portfólio</h3>
+            <div class="projetos">
+                <div class="projeto">
+                    <h4>Projeto 1</h4>
+                    <p>Descrição do projeto 1. <a href="#" target="_blank">Veja mais</a></p>
+                </div>
+                <div class="projeto">
+                    <h4>Projeto 2</h4>
+                    <p>Descrição do projeto 2. <a href="#" target="_blank">Veja mais</a></p>
+                </div>
+                <div class="projeto">
+                    <h4>Projeto 3</h4>
+                    <p>Descrição do projeto 3. <a href="#" target="_blank">Veja mais</a></p>
+                </div>
+            </div>
+        </section>
+        
+        <section id="testemunhos">
+            <h3>Testemunhos</h3>
+            <blockquote>
+                <p>"Trabalhar com você foi uma experiência incrível!" - Cliente Satisfeito</p>
+            </blockquote>
+            <blockquote>
+                <p>"Recomendo seus serviços a todos!" - Outro Cliente</p>
+            </blockquote>
+        </section>
+
+        <section id="galeria">
+            <h3>Galeria de Imagens</h3>
+            <div class="galeria">
+                <img src="imagens/imagem1.jpg" alt="Imagem 1">
+                <img src="imagens/imagem2.jpg" alt="Imagem 2">
+                <img src="imagens/imagem3.jpg" alt="Imagem 3">
+            </div>
+        </section>
+
+        <section id="contato">
+            <h3>Contato</h3>
+            <form>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" required></textarea>
+                
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Meu Nome | Todos os direitos reservados</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
